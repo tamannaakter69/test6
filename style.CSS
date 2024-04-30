@@ -1,0 +1,30 @@
+.h1{
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 30px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(2, 2, 175);
+    margin: 20px;
+    position: absolute;
+    top: 150px;
+    left: 80px; 
+     
+}
+.parent{
+    position: relative;
+    background-color: aqua;
+    width: 400px;
+    height: 600px;
+    z-index: 10px;
+}
